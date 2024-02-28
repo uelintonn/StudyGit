@@ -56,6 +56,9 @@ Criar novo repositório
 git init
 Verificar estado dos arquivos/diretórios
 
+rm -rf .git
+Apagar diretoria git
+
 git status
 Adicionar arquivo/diretório (staged area)
 
@@ -364,5 +367,7 @@ Finalizar a pesquisa binária
 Depois de encontrar o commit com problema, para retornar para o HEAD utilize:
 
 git bisect reset
+
+
 
 Copiado da internet
